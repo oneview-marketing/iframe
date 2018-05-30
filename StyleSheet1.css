@@ -1,0 +1,619 @@
+﻿@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+/* Variables */
+/* Mixins */
+/* Basic layout*/
+html {
+  height: 100%;
+  width: 100%; }
+
+body {
+  background-image: url(/img/login/Background-Image-OneView-22-05-2018.jpg);
+  background-size: cover !important;
+  height: 100%;
+  width: 100%;
+  display: flex !important;
+  align-items: center; }
+
+.container--signin {
+  max-width: 970px !important;
+  height: 590px !important;
+  background-color: white;
+  box-shadow: 20px 20px 90px rgba(0, 0, 0, 0.3) !important;
+  padding: 0; }
+  .container--signin--left {
+    background-color: white;
+    overflow: hidden; }
+  .container--signin--right {
+    background-color: white;
+    box-shadow: -10px 0px 80px rgba(0, 0, 0, 0.09) !important;
+    overflow: hidden !important; }
+
+.row {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  overflow: hidden !important; }
+
+/* Left column of block */
+.round__container {
+  width: 125px;
+  height: 125px;
+  background: #EBEBEB;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 75px;
+  margin-bottom: 0px; }
+
+.animated-gif {
+  width: 70%;
+  height: 70%;
+  margin-top: 12%;
+  margin-right: 5%; }
+
+.heading--blogpost {
+  width: 65%;
+  line-height: 145%;
+  font-family: "Open Sans";
+  font-size: 125%;
+  color: #5C5C5C;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  margin-bottom: 0px;
+  font-weight: 600 !important; }
+
+.marketing__text--blurb {
+  width: 55%;
+  font-family: "Open Sans";
+  font-size: 95%;
+  color: #7A7A7A;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5%;
+  margin-bottom: 0px; }
+
+.button--frame {
+  width: 30%;
+  background-color: white !important;
+  border-color: #00bcae !important;
+  font-family: "Open Sans";
+  font-size: 100% !important;
+  color: #00bcae !important;
+  text-align: center;
+  font-weight: bold !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-top: 4%;
+  margin-bottom: 0px;
+  padding-top: 1.7% !important;
+  padding-bottom: 1.7% !important; }
+  .button--frame:hover {
+    border-color: #044E5B !important;
+    font-family: "Open Sans";
+    font-size: 100% !important;
+    color: #044E5B !important;
+    text-align: center; }
+
+.support-section {
+  font-family: "Open Sans";
+  font-size: 60%;
+  color: #C8C8C8;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0%;
+  margin-bottom: 0px; }
+
+.support__links {
+  padding-bottom: 2px;
+  margin: 0; }
+
+.support__links--actual {
+  color: #00bcae; }
+  .support__links--actual:link {
+    color: #00bcae;
+    transition: 0.5s; }
+  .support__links--actual:visited {
+    color: #00bcae; }
+  .support__links--actual:hover {
+    color: rgba(0, 188, 174, 0.6);
+    text-decoration: none; }
+  .support__links--actual:active {
+    color: #00bcae;
+    text-decoration: none; }
+
+/* Right column of block */
+.oneview--top__image {
+  width: 262px;
+  display: block;
+  margin-top: 75px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 25px; }
+
+form {
+  width: 280.6px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.form__input--email {
+  width: 100% !important;
+  margin-left: auto;
+  margin-right: auto; }
+
+.form__input--password {
+  width: 100% !important;
+  margin-left: auto;
+  margin-right: auto; }
+
+#username {
+  /*margin-bottom: 28.047px !important;*/
+  margin-bottom: 1% !important; }
+
+#password {
+  /*margin-bottom: 25.250px !important;*/
+  margin-bottom: 1% !important; }
+
+.form-group {
+  margin: 0 !important; }
+
+.form-control {
+  border-bottom: 1px solid #C8C8C8 !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  outline: none;
+  box-shadow: none !important;
+  border-radius: 0px !important;
+  padding: 1% !important;
+  font-size: 14px !important;
+  margin-bottom: 0px !important;
+  /*color: #C8C8C8 !important;*/ }
+  .form-control:focus {
+    border-bottom: 1px solid #C8C8C8 !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    outline: none !important;
+    box-shadow: none !important; }
+
+.signin__button {
+  background-color: #044E5B !important;
+  border: none !important;
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  font-size: 100% !important;
+  padding-top: 3.5% !important;
+  padding-bottom: 3.5% !important; }
+  .signin__button:visited {
+    background-color: #00bcae !important; }
+  .signin__button:hover {
+    background-color: #00bcae !important; }
+  .signin__button:active {
+    background-color: #044E5B !important; }
+
+.below-button {
+  width: 100% !important;
+  margin: 0 !important;
+  padding-top: 2% !important;
+  font-size: 11px;
+  font-family: 'Open Sans Regular', sans-serif;
+  color: #C8C8C8;
+  display: flex; }
+
+.form-check-input {
+  margin-left: 0 !important;
+  margin-right: 0px !important;
+  margin-top: 0;
+  margin-bottom: 0px; }
+
+.form-check-label {
+  padding-left: 20px !important;
+  font-size: 11px;
+  font-family: 'Open Sans Regular', sans-serif;
+  color: #C8C8C8; }
+
+.form-check {
+  align-self: flex-start !important;
+  padding: 0 !important;
+  text-align: left; }
+
+.forgot-password {
+  align-self: flex-end !important;
+  padding: 0 !important;
+  text-align: right; }
+
+.password__link:link {
+  font-size: 11px;
+  font-family: 'Open Sans Regular', sans-serif;
+  color: #C8C8C8;
+  transition: 0.5s; }
+
+.password__link:visited {
+  font-size: 11px;
+  font-family: 'Open Sans Regular', sans-serif;
+  color: #C8C8C8; }
+
+.password__link:hover {
+  font-size: 11px;
+  font-family: 'Open Sans Regular', sans-serif;
+  color: #C8C8C8;
+  color: #00bcae !important;
+  text-decoration: none; }
+
+.password__link:active {
+  font-size: 11px;
+  font-family: 'Open Sans Regular', sans-serif;
+  color: #C8C8C8; }
+
+.form-check-input {
+  margin-top: 0px !important; }
+
+.logo--bottom {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0px; }
+
+.nebula__logo {
+  width: 75px !important;
+  float: right;
+  text-align: right;
+  padding-top: 55px; }
+
+.social-media__icon {
+  font-size: 100% !important;
+  color: #00bcae;
+  padding: 5px;
+  transition: 0.5s;
+  margin-top: 0 !important; }
+  .social-media__icon:hover {
+    color: rgba(0, 188, 174, 0.6); }
+
+.footer-section {
+  padding-top: 37.4px;
+  text-align: center; }
+
+.form-signup {
+  font-size: 11px;
+  font-family: 'Open Sans Regular', sans-serif;
+  color: #C8C8C8;
+  margin-bottom: 0% !important; }
+
+.signup__link:link {
+  color: #00bcae;
+  text-decoration: none;
+  transition: 0.5s; }
+
+.signup__link:visited {
+  color: #00bcae;
+  text-decoration: none; }
+
+.signup__link:hover {
+  color: rgba(0, 188, 174, 0.6);
+  text-decoration: none; }
+
+.signup__link:active {
+  color: #00bcae;
+  text-decoration: none; }
+
+/* For the floating labels */
+.form-group {
+  display: flex;
+  flex-flow: column-reverse; }
+
+label {
+  font-family: "Open Sans";
+  font-size: 11px;
+  color: #C8C8C8;
+  text-align: left !important;
+  margin-left: 1%;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0 !important;
+  opacity: 0 !important; }
+
+input, label {
+  transition: 0.5s; }
+
+input:not(:placeholder-shown) ~ label {
+  opacity: 1 !important; }
+
+input {
+  font-size: 0.95vw !important; }
+
+/* For the password reset modal */
+.form-horizontal {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  margin-top: 0px !important;
+  margin-bottom: 0px;
+  width: 100%; }
+
+.modal-content {
+  box-shadow: 20px 20px 90px rgba(0, 0, 0, 0.3); }
+
+.modal-body {
+  width: 85% !important;
+  border: none !important;
+  padding-top: 0px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  font-family: "Open Sans";
+  font-size: 13px;
+  color: #7A7A7A;
+  text-align: left; }
+
+.modal-title {
+  color: #7A7A7A;
+  font-family: "Open Sans";
+  font-size: 20px;
+  color: #7A7A7A;
+  text-align: left !important;
+  font-weight: 400 !important; }
+
+.modal-text {
+  font-family: "Open Sans";
+  font-size: 13px;
+  color: #7A7A7A;
+  text-align: left; }
+
+.modal-header {
+  width: 85%;
+  border: none !important;
+  padding-top: 25px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: left !important;
+  display: block !important; }
+
+.modal-footer {
+  width: 85%;
+  border: none !important;
+  padding-bottom: 25px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  justify-content: center !important; }
+
+#resetPasswordConfirmPin, #enterpin, #confirmpin_cancel {
+  background-color: #ADADAD !important;
+  border: none !important;
+  font-size: 14px !important;
+  color: #ffffff !important; }
+  #resetPasswordConfirmPin:hover, #enterpin:hover, #confirmpin_cancel:hover {
+    background-color: rgba(173, 173, 173, 0.7) !important; }
+
+#reset, #register, #verifypin {
+  background-color: #00bcae !important;
+  border: none !important;
+  font-size: 14px !important; }
+  #reset:hover, #register:hover, #verifypin:hover {
+    background-color: rgba(0, 188, 174, 0.7) !important; }
+
+.close {
+  padding: 0px 0px 0px 0px !important;
+  margin-top: -1% !important;
+  border: 1px solid #00bcae !important;
+  -moz-border-radius: 50% !important;
+  -webkit-border-radius: 50% !important;
+  border-radius: 50% !important; }
+  .close:hover {
+    border: 1px solid #00bcae !important;
+    outline: none !important;
+    text-decoration: none; }
+  .close:focus {
+    outline: none !important; }
+
+.cross--exit {
+  display: block;
+  width: 30px;
+  height: 30px;
+  color: #00bcae;
+  font-size: 24px;
+  font-weight: 100; }
+
+.modal-close-symbol {
+  display: block;
+  width: 30px;
+  height: 30px;
+  color: #00bcae;
+  font-size: 24px;
+  font-weight: 100; }
+
+.form-group--email--register {
+  margin-bottom: 25px !important; }
+
+.resend {
+  font-size: 11px;
+  font-family: 'Open Sans Regular', sans-serif;
+  color: #C8C8C8;
+  text-align: center;
+  padding-bottom: 10px !important; }
+
+.form-group--confirm {
+  margin-top: 25px !important; }
+
+.modal-button--confirm--verify {
+  background-color: #00bcae !important;
+  border: none !important;
+  font-size: 14px !important; }
+  .modal-button--confirm--verify:hover {
+    background-color: rgba(0, 188, 174, 0.7) !important; }
+
+.modal-button--confirm--cancel {
+  background-color: #ADADAD !important;
+  border: none !important;
+  font-size: 14px !important; }
+  .modal-button--confirm--cancel:hover {
+    background-color: rgba(173, 173, 173, 0.7) !important; }
+
+/* For the responsivess on smaller tablet-sized devices */
+@media only screen and (max-width: 991px) {
+  .container--signin--left {
+    display: none; }
+  .container--signin {
+    height: auto !important;
+    width: 90vw !important; }
+  .container--signin--right {
+    height: 100% !important; }
+  .oneview--top__image {
+    width: 70%; }
+  .customvalidation {
+    width: 70%; }
+  .support-section {
+    margin-bottom: 25vw;
+    font-size: 2vw; }
+  .signin__button {
+    font-size: 3vw !important; }
+  .form-control {
+    font-size: 3vw !important; }
+  .floating__label {
+    font-size: 2vw; }
+  .nebula__logo {
+    width: 15vw !important; }
+  .social-media {
+    font-size: 3vw; }
+  .form-signup {
+    font-size: 1.8vw !important; }
+  .password__link {
+    font-size: 1.8vw !important; } }
+
+/* More modal work */
+.modal__input {
+  margin-bottom: 28.047px !important; }
+
+.modal--end {
+  display: block !important;
+  text-align: center; }
+
+.modal__button {
+  margin-left: 6px !important;
+  margin-right: 6px !important; }
+
+.modal__buttons--bottom {
+  margin-bottom: 15px !important; }
+
+/* For the error messages above the sign in button */
+.error-message {
+  color: rgba 255, 88, 66, 0.7 !important;
+  font-size: 11px !important;
+  font-family: "Open Sans" !important; }
+
+.alert-danger {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  padding: 3% 0 1% 0;
+  margin: 0px !important; }
+
+.alert-info {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  padding: 3% 0 7% 0;
+  margin: 0px !important; }
+
+.alert {
+  border: none !important;
+  font-size: 11px;
+  font-family: "Open Sans Semibold" !important;
+  color: rgba(255, 88, 66, 0.7) !important; }
+
+#resetPasswordPinResult .alert {
+  padding-bottom: 7%; }
+
+/* To change the color of the placeholder text */
+.form-control::-moz-placeholder {
+  color: #C8C8C8 !important; }
+
+.form-control:-ms-input-placeholder {
+  color: #C8C8C8 !important; }
+
+.form-control::-webkit-input-placeholder {
+  color: #C8C8C8 !important; }
+
+/* To add custom validation to form inputs */
+/*.was-validated .invalid-feedback {
+    display: block !important;
+    padding-left: 1% !important;
+    @include text("Open Sans", 70%, rgba(255,143,38, 0.7), left);
+}
+
+.was-validated #username {
+    margin-bottom: 1% !important;
+}
+
+.was-validated #password {
+    margin-bottom: 1% !important;
+}*/
+/* Error messages on modal forms */
+#resetPasswordPinResult .alert-danger {
+  font-family: "Open Sans Semibold";
+  font-size: 11px;
+  color: rgba(255, 88, 66, 0.7);
+  text-align: left; }
+
+#resetPasswordPinResult {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important; }
+
+/* Fixing the validation placement and floating labels */
+label {
+  order: 3; }
+
+input {
+  order: 2; }
+
+.invalid-feedback {
+  order: 1; }
+
+.invalid-feedback {
+  display: block !important;
+  opacity: 0 !important; }
+
+.was-validated .form-control:invalid ~ .invalid-feedback {
+  opacity: 1 !important; }
+
+.invalid-feedback {
+  text-align: left;
+  padding-left: 1%;
+  color: rgba(255, 143, 38, 0.7);
+  margin-top: 0 !important;
+  font-size: 60%;
+  font-family: "Open Sans" !important; }
+
+/* Stabilising of the Nebula logo at bottom of column */
+.logo--bottom {
+  position: absolute;
+  top: 93%;
+  left: 0;
+  z-index: 7000;
+  padding-right: 2%; }
+
+.nebula__logo {
+  padding: 0; }
+
+/* Fixing layout */
+.password__label {
+  margin-top: 14.025px; }
+
+/* Font size breakpoints */
+@media only screen and (max-width: 398px) {
+  /*.password__link {
+        font-size: 2.5vw !important;
+    }
+
+    .form-signup {
+        font-size: 2.5vw !important;
+        margin-bottom: 0vw !important;
+    } */ }
+
+/* below button text */
+
